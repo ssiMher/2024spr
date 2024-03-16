@@ -1,0 +1,192 @@
+[
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\main.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/main.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\CoreLayer\\Math\\Transform.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\CoreLayer\\Math\\Transform.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/CoreLayer/Math/Transform.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Acceleration\\AABB.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Acceleration\\AABB.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Acceleration/AABB.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Acceleration\\Acceleration.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Acceleration\\Acceleration.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Acceleration/Acceleration.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Acceleration\\EmbreeBVH.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Acceleration\\EmbreeBVH.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Acceleration/EmbreeBVH.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Acceleration\\Linear.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Acceleration\\Linear.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Acceleration/Linear.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Acceleration\\Octree.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Acceleration\\Octree.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Acceleration/Octree.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Integrator\\NormalIntegrator.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Integrator\\NormalIntegrator.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Integrator/NormalIntegrator.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Integrator\\DirectIntegrator.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Integrator\\DirectIntegrator.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Integrator/DirectIntegrator.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Integrator\\WhittedIntegrator.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Integrator\\WhittedIntegrator.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Integrator/WhittedIntegrator.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Camera\\Camera.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Camera\\Camera.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Camera/Camera.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Camera\\Pinhole.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Camera\\Pinhole.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Camera/Pinhole.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Scene\\Scene.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Scene\\Scene.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Scene/Scene.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Light\\SpotLight.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Light\\SpotLight.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Light/SpotLight.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Light\\AreaLight.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Light\\AreaLight.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Light/AreaLight.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Light\\EnvironmentLight.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Light\\EnvironmentLight.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Light/EnvironmentLight.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Shape\\Shape.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Shape\\Shape.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Shape/Shape.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Shape\\Triangle.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Shape\\Triangle.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Shape/Triangle.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Shape\\Cube.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Shape\\Cube.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Shape/Cube.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Shape\\Sphere.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Shape\\Sphere.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Shape/Sphere.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Shape\\Parallelogram.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Shape\\Parallelogram.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Shape/Parallelogram.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Texture\\NormalTexture.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Texture\\NormalTexture.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Texture/NormalTexture.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Texture\\ImageTexture.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Texture\\ImageTexture.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Texture/ImageTexture.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Texture\\Texture.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Texture\\Texture.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Texture/Texture.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Texture\\Mipmap.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Texture\\Mipmap.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Texture/Mipmap.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Material\\Matte.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Material\\Matte.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Material/Matte.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Material\\Mirror.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Material\\Mirror.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Material/Mirror.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Material\\Material.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Material\\Material.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Material/Material.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Sampler\\IndependentSampler.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Sampler\\IndependentSampler.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Sampler/IndependentSampler.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\ResourceLayer\\Image.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\ResourceLayer\\Image.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/ResourceLayer/Image.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\ResourceLayer\\Mesh.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\ResourceLayer\\Mesh.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/ResourceLayer/Mesh.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\ResourceLayer\\FileUtil.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\ResourceLayer\\FileUtil.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/ResourceLayer/FileUtil.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Shape\\Disk.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Shape\\Disk.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Shape/Disk.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Shape\\Cone.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Shape\\Cone.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Shape/Cone.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Shape\\Cylinder.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Shape\\Cylinder.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Shape/Cylinder.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Integrator\\UVIntegrator.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Integrator\\UVIntegrator.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Integrator/UVIntegrator.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES -I..\\..\\..\\.\\externals -I..\\..\\..\\.\\src -I..\\..\\..\\.\\externals\\json\\include -I..\\..\\..\\.\\externals\\embree\\include -I..\\..\\..\\externals\\tinyobjloader /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /FoCMakeFiles\\Moer.dir\\src\\FunctionLayer\\Acceleration\\BVH.cpp.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\src\\FunctionLayer\\Acceleration\\BVH.cpp",
+  "file": "E:/code/2023spr/Moer-lite/src/FunctionLayer/Acceleration/BVH.cpp"
+},
+{
+  "directory": "E:/code/2023spr/Moer-lite/out/build/x64-Debug",
+  "command": "D:\\VISUAL~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DNOMINMAX -DUNICODE -D_UNICODE -D_USE_MATH_DEFINES /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd /MP /utf-8 -std:c++17 /Foexternals\\tinyobjloader\\CMakeFiles\\tinyobjloader.dir\\tiny_obj_loader.cc.obj /FdTARGET_COMPILE_PDB /FS -c E:\\code\\2023spr\\Moer-lite\\externals\\tinyobjloader\\tiny_obj_loader.cc",
+  "file": "E:/code/2023spr/Moer-lite/externals/tinyobjloader/tiny_obj_loader.cc"
+}
+]
