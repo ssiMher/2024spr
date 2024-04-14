@@ -17,6 +17,9 @@ public:
   virtual void uniformSampleOnSurface(Vector2f sample,
                                       Intersection *intersection,
                                       float *pdf) const override;
+  
+  //my add
+  virtual float getArea() const override;
 
 public:
   Point3f base;

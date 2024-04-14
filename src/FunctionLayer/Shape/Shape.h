@@ -38,6 +38,9 @@ public:
     return;
   }
 
+  //my add
+  virtual float getArea() const { return 0.0f; }
+
 public:
   int geometryID;
   std::shared_ptr<Light> light;

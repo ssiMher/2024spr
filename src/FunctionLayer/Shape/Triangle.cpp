@@ -172,3 +172,52 @@ void TriangleMesh::initInternalAcceleration() {
   boundingBox = acceleration->boundingBox;
 }
 REGISTER_CLASS(TriangleMesh, "triangle")
+
+
+//my add
+//计算一个三角形的面积
+float TriangleMesh::getArea(int index) const {
+    std::array<DataIndex, 3> face = meshData->faceBuffer[index];
+    Point3f v0 = meshData->vertexBuffer[face[0].vertexIndex];
+    Point3f v1 = meshData->vertexBuffer[face[1].vertexIndex];
+    Point3f v2 = meshData->vertexBuffer[face[2].vertexIndex];
+
+    // 计算三角形面的面积
+    return 0.5 * cross(v1 - v0, v2 - v0).length();
+}
+
+// 计算整个TriangleMesh的面积
+float TriangleMesh::getArea() const {
+    if (this->totalArea >= 0)return this->totalArea;    //只计算一次面积
+    float totalArea = 0.0;
+    int faceCount = meshData->faceCount;
+    for (int i = 0; i < faceCount; ++i) {
+        // 计算三角形面的面积
+        float a = getArea(i);
+        totalArea += a;
+        //this->areas[0] = a;
+    }
+    return totalArea;
+}
+void TriangleMesh::setArea(float area) const{
+    this->totalArea = area;
+    return;
+}
+void TriangleMesh::calculateAreas() const{
+    if (this->cumulativeProbabilities.size() > 0)return;
+    float totalArea = this->totalArea;
+    std::vector<float> areas(meshData->faceCount);
+
+    // 计算每个三角形的面积
+    for (int i = 0; i < meshData->faceCount; ++i) {
+        areas[i] = getArea(i);
+    }
+
+    // 计算累积概率
+    cumulativeProbabilities.resize(meshData->faceCount);
+    float accum = 0.0f;
+    for (int i = 0; i < areas.size(); i++) {
+        accum += areas[i] / totalArea;
+        cumulativeProbabilities[i] = accum;
+    }
+}

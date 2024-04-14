@@ -83,4 +83,11 @@ void Parallelogram::uniformSampleOnSurface(Vector2f sample,
                    intersection);
 }
 
+//my add
+float Parallelogram::getArea() const {
+    return cross(edge0, edge1).length();
+}
+
+
+
 REGISTER_CLASS(Parallelogram, "parallelogram")
