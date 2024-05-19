@@ -48,6 +48,7 @@ int main(int argc, char **argv) {
             CameraSample{sampler->next2D()}, NDC);
         li += integrator->li(ray, *scene, sampler);
       }
+
       camera->film->deposit({x, y}, li / spp);
 
       int finished = x + y * width;

@@ -12,6 +12,18 @@ Moer-lite的框架基于Moer主干：https://github.com/NJUCG/Moer .
 ## 编译和使用
 
 请参考Lab0的编译使用过程。
+mkdir build
+cd build
+cmake ..
+make -j4
+
+\target
+\bin
+Moer
+\lib
+
+执行Moer 并传递场景描述文件参数
+./Moer 场景描述文件的目录
 
 ## 示例场景
 目前有五个示例场景：

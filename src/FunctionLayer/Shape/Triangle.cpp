@@ -154,6 +154,79 @@ void TriangleMesh::fillIntersection(float distance, int primID, float u,
   tangent = normalize(cross(intersection->normal, bitangent));
   intersection->tangent = tangent;
   intersection->bitangent = bitangent;
+
+  // 计算偏微分dpdu 和dpdv
+  // your code here ...
+  Point3f p0 = meshData->vertexBuffer[faceInfo[0].vertexIndex];
+  Point3f p1 = meshData->vertexBuffer[faceInfo[1].vertexIndex];
+  Point3f p2 = meshData->vertexBuffer[faceInfo[2].vertexIndex];
+  Vector2f uv0 = meshData->texcodBuffer[faceInfo[0].texcodIndex];
+  Vector2f uv1 = meshData->texcodBuffer[faceInfo[1].texcodIndex];
+  Vector2f uv2 = meshData->texcodBuffer[faceInfo[2].texcodIndex];
+
+  Vector3f dp1 = p1 - p0;
+  Vector3f dp2 = p2 - p0;
+  Vector2f duv1 = uv1 - uv0;
+  Vector2f duv2 = uv2 - uv0;
+
+  /*float det = duv1[0] * duv2[1] - duv1[1] * duv2[0];
+  if (std::abs(det) < 1e-10f) {
+      intersection->dpdu = Vector3f(0.0f, 0.0f, 0.0f);
+      intersection->dpdv = Vector3f(0.0f, 0.0f, 0.0f);
+  }
+  else {
+      float invDet = 1.0f / det;
+      intersection->dpdu = (duv2[1] * dp1 - duv1[1] * dp2) * invDet;
+      intersection->dpdv = (-duv2[0] * dp1 + duv1[0] * dp2) * invDet;
+  }*/
+
+  /*Point3f p0 = pw;
+  Point3f p1 = pu;
+  Point3f p2 = pv;
+  Vector2f uv0 = meshData->texcodBuffer[faceInfo[0].texcodIndex];
+  Vector2f uv1 = meshData->texcodBuffer[faceInfo[1].texcodIndex];
+  Vector2f uv2 = meshData->texcodBuffer[faceInfo[2].texcodIndex];
+
+  Vector3f dp1 = p1 - p0;
+  Vector3f dp2 = p2 - p0;
+  Vector2f duv1 = uv1 - uv0;
+  Vector2f duv2 = uv2 - uv0;
+  */
+  float A[2][2] = { {duv1[0], duv1[1]}, {duv2[0], duv2[1]} };
+  float Bx[2] = { dp1[0], dp2[0] };
+  float By[2] = { dp1[1], dp2[1] };
+  float Bz[2] = { dp1[2], dp2[2] };
+
+  auto solveLinearSystem2x2 = [](const float A[2][2], const float B[2], float* x0, float* x1) {
+      float det = A[0][0] * A[1][1] - A[0][1] * A[1][0];
+      if (std::abs(det) < 1e-10f)
+          return false;
+      *x0 = (A[1][1] * B[0] - A[0][1] * B[1]) / det;
+      *x1 = (A[0][0] * B[1] - A[1][0] * B[0]) / det;
+      if (std::isnan(*x0) || std::isnan(*x1))
+          return false;
+      return true;
+  };
+  float dpdu, dpdv;
+  if (!solveLinearSystem2x2(A, Bx, &dpdu, &dpdv))
+      intersection->dpdu[0] = intersection->dpdv[0] = 0.0f;
+  else {
+      intersection->dpdu[0] = dpdu;
+      intersection->dpdv[0] = dpdv;
+  }
+  if (!solveLinearSystem2x2(A, By, &dpdu, &dpdv))
+      intersection->dpdu[1] = intersection->dpdv[1] = 0.0f;
+  else {
+      intersection->dpdu[1] = dpdu;
+      intersection->dpdv[1] = dpdv;
+  }
+  if (!solveLinearSystem2x2(A, Bz, &dpdu, &dpdv))
+      intersection->dpdu[2] = intersection->dpdv[2] = 0.0f;
+  else {
+      intersection->dpdu[2] = dpdu;
+      intersection->dpdv[2] = dpdv;
+  }
+  return;
 }
 
 void TriangleMesh::initInternalAcceleration() {
